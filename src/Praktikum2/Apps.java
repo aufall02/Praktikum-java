@@ -2,8 +2,11 @@ package Praktikum2;
 
 public class Apps {
     public static void main(String[] args) {
+        print();
+        print1();
+        print2();
         Print Ob = new Print();
-        Ob.Print("aufal");
+        Ob.print("aufal",7,9);
         System.out.println("ini hasilnya : "+tambah(3,6));
 
     }
@@ -13,7 +16,7 @@ public class Apps {
     public static void print(){
         System.out.println("method 1");
     }
-    public void print1(){
+    public static void print1(){
         System.out.println("method 2");
     }
     public static void print2(){
@@ -27,8 +30,12 @@ public class Apps {
 
 
 class Print{
-    public void Print(String nama){
-        System.out.println("saya adalah : "+nama);
+    public void print(String nama,int angka,int angka1){
+        System.out.println("nama saya  : "+nama);
+        int hasil = angka * angka1;
+        System.out.println("hasil perkalian dari "+angka +" * "+angka1+" = " + hasil);
+
     }
+
 
 }
