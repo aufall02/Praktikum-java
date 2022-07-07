@@ -23,8 +23,7 @@ public class Apps {
         System.out.println("method 3");
     }
     public static int tambah(int angka,int angka1){
-        int hasil = angka + angka1;
-        return hasil;
+        return angka + angka1;
     }
 }
 
