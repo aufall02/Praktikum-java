@@ -10,6 +10,8 @@ public class Apps {
             System.out.println("salammmm");
         } else if (masukkanAngka == 0) {
             System.out.println("terimaksih");
+        } else {
+            System.out.println("isi yang bener oiii");
         }
     }
     public static int perkalian(int angka,int angka1,int angka2){
