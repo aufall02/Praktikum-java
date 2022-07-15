@@ -10,8 +10,7 @@ public class DepartemenHRD extends Departemen{
         System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }static void VPHR(){
@@ -23,8 +22,7 @@ public class DepartemenHRD extends Departemen{
         System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }
@@ -37,8 +35,7 @@ public class DepartemenHRD extends Departemen{
         System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }

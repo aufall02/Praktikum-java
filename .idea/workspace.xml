@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35e9a51-7136-4102-97ce-2bccb371331d" name="Changes" comment="Tugas praktikum 5 tugass">
-      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/Departemen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/DepartemenHRD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/DepartemenRnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/GajiApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/AbstractApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/SubClassAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/CalcAbsract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/CalcApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/SubCalsAbsract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f35e9a51-7136-4102-97ce-2bccb371331d" name="Changes" comment="Tugas praktikum 6 Ujia Akhir praktikum" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657680767131</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tugas praktikum 6 Ujia Akhir praktikum">
+      <created>1657854927164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657854927164</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +247,8 @@
     <MESSAGE value="Tugas praktikum 4" />
     <MESSAGE value="Tugas praktikum 5 Polimorphysm" />
     <MESSAGE value="Tugas praktikum 5 tugass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tugas praktikum 5 tugass" />
+    <MESSAGE value="Tugas praktikum 6 Ujia Akhir praktikum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tugas praktikum 6 Ujia Akhir praktikum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

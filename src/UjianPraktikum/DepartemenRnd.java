@@ -12,8 +12,7 @@ public class DepartemenRnd extends Departemen{
         System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }static void programer(){
@@ -25,8 +24,7 @@ public class DepartemenRnd extends Departemen{
         System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }
@@ -36,11 +34,9 @@ public class DepartemenRnd extends Departemen{
         System.out.println("gaji pokok      : "+gajiPokok);
         System.out.println("gaji tambahan   : "+gajiTambahan);
         totalGajiPokok();
-        System.out.println("Total Gaji pokok : "+totalGajiPokok);
         tunjanganAnakIstri();
         pajak();
-        totalGajiPokok();
-        gajiBersih = totalGajiPokok-tunjanganAnakIstri-pajak;
+        gajiBersih();
         System.out.println("Gaji bersih anda : "+gajiBersih);
 
     }

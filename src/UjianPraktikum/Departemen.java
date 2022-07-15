@@ -54,4 +54,9 @@ class Departemen {
         pajak = (totalGajiPokok()+tunjanganAnakIstri())*7/100;
         return pajak;
     }
+
+    static int gajiBersih(){
+        gajiBersih = totalGajiPokok + tunjanganAnakIstri - pajak;
+        return gajiBersih;
+    }
 }
