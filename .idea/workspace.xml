@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35e9a51-7136-4102-97ce-2bccb371331d" name="Changes" comment="Tugas praktikum 4">
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/ParentClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/PolimorphysmApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/Tugas/HitungLuas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/Tugas/HitungLuasApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/Tugas/Lingkaran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/Tugas/PersegiPanjang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/praktikum5/Tugas/Segitiga.java" afterDir="false" />
+    <list default="true" id="f35e9a51-7136-4102-97ce-2bccb371331d" name="Changes" comment="Tugas praktikum 5 tugass">
+      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/Departemen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/DepartemenHRD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/DepartemenRnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UjianPraktikum/GajiApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/AbstractApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/SubClassAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/CalcAbsract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/CalcApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/praktikum6/Tugas/SubCalsAbsract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +63,13 @@
       <recent name="D:\java\Praktikum\src\Praktikum1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HitungLuasApps">
-    <configuration name="Apps2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum3.Apps2" />
+  <component name="RunManager" selected="Application.GajiApps">
+    <configuration name="AbstractApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="praktikum6.AbstractApps" />
       <module name="Praktikum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Praktikum3.*" />
+          <option name="PATTERN" value="praktikum6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum4.Tugas.HeroApps" />
+    <configuration name="CalcApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="praktikum6.Tugas.CalcApps" />
       <module name="Praktikum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Praktikum4.Tugas.*" />
+          <option name="PATTERN" value="praktikum6.Tugas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GajiApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UjianPraktikum.GajiApps" />
+      <module name="Praktikum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UjianPraktikum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Praktikum4.InheritenceApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Praktikum4.InheritenceApps" />
-      <module name="Praktikum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Praktikum4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GajiApps" />
+        <item itemvalue="Application.CalcApps" />
+        <item itemvalue="Application.AbstractApps" />
         <item itemvalue="Application.HitungLuasApps" />
         <item itemvalue="Application.PolimorphysmApps" />
-        <item itemvalue="Application.HeroApps" />
-        <item itemvalue="Application.Praktikum4.InheritenceApps" />
-        <item itemvalue="Application.Apps2" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657597783305</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tugas praktikum 5 Polimorphysm">
+      <created>1657680690251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657680690252</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tugas praktikum 5 tugass">
+      <created>1657680767131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657680767131</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +250,9 @@
     <MESSAGE value="belajar Constructor" />
     <MESSAGE value="Tugas praktikum 3" />
     <MESSAGE value="Tugas praktikum 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tugas praktikum 4" />
+    <MESSAGE value="Tugas praktikum 5 Polimorphysm" />
+    <MESSAGE value="Tugas praktikum 5 tugass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tugas praktikum 5 tugass" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
